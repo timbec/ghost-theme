@@ -1,0 +1,50 @@
+/*Main Layout*/
+
+header {
+    background: $white; 
+    width: 100%; 
+    height: 8em; 
+}
+
+h1.blog-title {
+    width: 40%; 
+    border: 10px double $white; 
+}
+
+/* The details of your blog. Defined in ghost/settings/ */
+.blog-title {
+    margin: 10px 0 10px 0;
+    font-size: 4.5rem;
+    letter-spacing: -1px;
+    font-weight: bold;
+    @include futura; 
+    text-shadow: 0 1px 6px rgba(0,0,0,0.1);
+}
+
+.blog-description {
+    margin: 0;
+    font-size: 1.8rem;
+    line-height: 1.5em;
+    font-weight: 300;
+    font-family: 'Noto Serif', serif;
+    letter-spacing: 0;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.15);
+}
+
+.content {
+    float: left; 
+    width: 66%; 
+    background: $white; 
+}
+
+aside {
+    float: right; 
+    width: 33%; 
+    background: $white; 
+}
+
+
+footer {
+    width: 100%; 
+    float: left; 
+}
