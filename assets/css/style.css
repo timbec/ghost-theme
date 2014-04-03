@@ -700,7 +700,7 @@ margin on the iframe, cause it breaks stuff. */
 
 /*Main Layout*/
 /* line 3, ../../sass/partials/_layout.scss */
-header {
+.site-head {
   background: white;
   width: 100%;
   height: 8em;
@@ -709,11 +709,12 @@ header {
 /* line 9, ../../sass/partials/_layout.scss */
 h1.blog-title {
   width: 40%;
+  padding: 1.5rem 0;
   border: 10px double white;
 }
 
 /* The details of your blog. Defined in ghost/settings/ */
-/* line 15, ../../sass/partials/_layout.scss */
+/* line 16, ../../sass/partials/_layout.scss */
 .blog-title {
   margin: 10px 0 10px 0;
   font-size: 4.5rem;
@@ -725,7 +726,7 @@ h1.blog-title {
   text-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* line 24, ../../sass/partials/_layout.scss */
+/* line 25, ../../sass/partials/_layout.scss */
 .blog-description {
   margin: 0;
   font-size: 1.8rem;
@@ -736,11 +737,10 @@ h1.blog-title {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 }
 
-/* line 34, ../../sass/partials/_layout.scss */
+/* line 35, ../../sass/partials/_layout.scss */
 .content {
   float: left;
   width: 66%;
-  background: white;
 }
 
 /* line 40, ../../sass/partials/_layout.scss */
@@ -795,8 +795,9 @@ footer {
   position: relative;
   width: 80%;
   max-width: 700px;
-  margin: 4rem auto;
-  padding-bottom: 4rem;
+  background: white;
+  padding: 0 6rem 3rem 6rem;
+  margin: 6rem auto;
   border-bottom: #EBF2F6 1px solid;
   word-break: break-word;
   hyphens: auto;
@@ -804,7 +805,7 @@ footer {
 
 /* Add a little circle in the middle of the border-bottom on our .post
    just for the lolz and stylepoints. */
-/* line 47, ../../sass/partials/_posts.scss */
+/* line 48, ../../sass/partials/_posts.scss */
 .post:after {
   display: block;
   content: "";
@@ -822,24 +823,35 @@ footer {
   box-shadow: #fff 0 0 0 5px;
 }
 
-/* line 64, ../../sass/partials/_posts.scss */
+/* line 65, ../../sass/partials/_posts.scss */
 .post-title {
+  color: #09021d;
   margin: 0;
 }
 
-/* line 68, ../../sass/partials/_posts.scss */
+/* line 70, ../../sass/partials/_posts.scss */
 .post-title a {
   text-decoration: none;
 }
 
-/* line 72, ../../sass/partials/_posts.scss */
+/* line 74, ../../sass/partials/_posts.scss */
 .post-excerpt p {
   margin: 1.6rem 0 0 0;
   font-size: 0.9em;
   line-height: 1.6em;
 }
 
-/* line 78, ../../sass/partials/_posts.scss */
+/* line 80, ../../sass/partials/_posts.scss */
+.post-date {
+  position: absolute;
+  top: -50px;
+  background: white;
+  left: -20px;
+  padding: 1.5rem;
+  border: 1px solid #09021d;
+}
+
+/* line 89, ../../sass/partials/_posts.scss */
 .post-meta {
   display: inline-block;
   margin: 0 0 5px 0;
@@ -848,38 +860,38 @@ footer {
   color: #9EABB3;
 }
 
-/* line 86, ../../sass/partials/_posts.scss */
+/* line 97, ../../sass/partials/_posts.scss */
 .post-meta a {
   color: #9EABB3;
   text-decoration: none;
 }
 
-/* line 91, ../../sass/partials/_posts.scss */
+/* line 102, ../../sass/partials/_posts.scss */
 .post-meta a:hover {
   text-decoration: underline;
 }
 
-/* line 95, ../../sass/partials/_posts.scss */
+/* line 106, ../../sass/partials/_posts.scss */
 .user-meta {
   position: relative;
   padding: 0.3rem 40px 0 100px;
   min-height: 77px;
 }
 
-/* line 101, ../../sass/partials/_posts.scss */
+/* line 112, ../../sass/partials/_posts.scss */
 .user-image {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-/* line 107, ../../sass/partials/_posts.scss */
+/* line 118, ../../sass/partials/_posts.scss */
 .user-name {
   display: block;
   font-weight: bold;
 }
 
-/* line 112, ../../sass/partials/_posts.scss */
+/* line 123, ../../sass/partials/_posts.scss */
 .user-bio {
   display: block;
   max-width: 440px;
@@ -887,7 +899,7 @@ footer {
   line-height: 1.5em;
 }
 
-/* line 119, ../../sass/partials/_posts.scss */
+/* line 130, ../../sass/partials/_posts.scss */
 .publish-meta {
   position: absolute;
   top: 0;
@@ -896,13 +908,13 @@ footer {
   text-align: right;
 }
 
-/* line 127, ../../sass/partials/_posts.scss */
+/* line 138, ../../sass/partials/_posts.scss */
 .publish-heading {
   display: block;
   font-weight: bold;
 }
 
-/* line 132, ../../sass/partials/_posts.scss */
+/* line 143, ../../sass/partials/_posts.scss */
 .publish-date {
   display: block;
   font-size: 1.4rem;
@@ -913,7 +925,7 @@ footer {
    5. Single Post - When you click on an individual post
    ========================================================================== */
 /* Tweak the .post wrapper style */
-/* line 143, ../../sass/partials/_posts.scss */
+/* line 154, ../../sass/partials/_posts.scss */
 .post-template .post {
   margin-top: 0;
   border-bottom: none;
@@ -921,22 +933,9 @@ footer {
 }
 
 /* Kill that stylish little circle that was on the border, too */
-/* line 150, ../../sass/partials/_posts.scss */
+/* line 161, ../../sass/partials/_posts.scss */
 .post-template .post:after {
   display: none;
-}
-
-/* Insert some mad padding up in the header for better spacing */
-/* line 155, ../../sass/partials/_posts.scss */
-.post-template .post-header {
-  padding: 60px 0;
-  text-align: center;
-}
-
-/* line 160, ../../sass/partials/_posts.scss */
-.post-template .blog-title {
-  display: inline-block;
-  padding: 2.5rem 0;
 }
 
 /* Keep large images within the bounds of the post-width */

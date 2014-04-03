@@ -35,8 +35,9 @@
     position: relative;
     width:80%;
     max-width: 700px;
-    margin: 4rem auto;
-    padding-bottom: 4rem;
+    background: $white; 
+    padding:0 6rem 3rem 6rem;
+    margin: 6rem auto;
     border-bottom: #EBF2F6 1px solid;
     word-break: break-word;
     hyphens: auto;
@@ -62,6 +63,7 @@
 }
 
 .post-title {
+    color: $blue-black; 
     margin:0;
 }
 
@@ -73,6 +75,15 @@
     margin: 1.6rem 0 0 0;
     font-size: 0.9em;
     line-height: 1.6em;
+}
+
+.post-date {
+    position: absolute;
+    top: -50px;
+    background: $white;
+    left: -20px;
+    padding: 1.5rem;
+    border: 1px solid $blue-black; 
 }
 
 .post-meta {
@@ -149,17 +160,6 @@
 /* Kill that stylish little circle that was on the border, too */
 .post-template .post:after {
     display: none;
-}
-
-/* Insert some mad padding up in the header for better spacing */
-.post-template .post-header {
-    padding: 60px 0;
-    text-align: center;
-}
-
-.post-template .blog-title {
-    display: inline-block;
-    padding: 2.5rem 0;
 }
 
 /* Keep large images within the bounds of the post-width */
