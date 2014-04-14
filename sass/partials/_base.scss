@@ -60,7 +60,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    //font-family: 'Noto Serif', serif;
+    font-family: 'Noto Serif', serif;
     font-size: 2.0rem;
     line-height: 1.6em;
     background: $green-black; 
@@ -84,7 +84,7 @@ h4, h5, h6 {
     text-rendering: optimizeLegibility;
     line-height: 1;
     margin-top: 0;
-    font-family: 'Open Sans', sans-serif;
+    @include open-sans; 
 }
 
 h1 {
@@ -92,7 +92,6 @@ h1 {
     line-height: 1.2em;
     letter-spacing: -1px;
     text-indent: -2px;
-    @include futura; 
     color: $white; 
 }
 
@@ -120,17 +119,13 @@ h6 {
 }
 
 a {
-    color: #4a4a4a;
-    transition: color ease 0.3s;
+    color: $dark_green;
+    transition: color ease 0.1s;
 }
 
 a:hover {
-    color: #57A3E8;
-}
-
-h1 a, h2 a, h3 a,
-h4 a, h5 a, h6 a {
-    color: #50585D;
+    color: $blue_black; 
+    tranisition: color ease 0.2s; 
 }
 
 
@@ -141,6 +136,10 @@ p, ul, ol, dl {
 ol ol, ul ul,
 ul ol, ol ul {
     margin: 0.4em 0;
+}
+
+li {
+    list-style: none; 
 }
 
 dl dt {

@@ -380,6 +380,7 @@ html {
 body {
   height: 100%;
   max-height: 100%;
+  font-family: 'Noto Serif', serif;
   font-size: 2.0rem;
   line-height: 1.6em;
   background: #060400;
@@ -406,7 +407,7 @@ h4, h5, h6 {
   text-rendering: optimizeLegibility;
   line-height: 1;
   margin-top: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* line 90, ../../sass/partials/_base.scss */
@@ -415,13 +416,10 @@ h1 {
   line-height: 1.2em;
   letter-spacing: -1px;
   text-indent: -2px;
-  font-family: Futura, "Droid-Serif", sans-serif;
-  text-transform: uppercase;
-  font-weight: 400;
   color: white;
 }
 
-/* line 99, ../../sass/partials/_base.scss */
+/* line 98, ../../sass/partials/_base.scss */
 h2 {
   font-size: 4rem;
   line-height: 1.2em;
@@ -429,55 +427,55 @@ h2 {
   text-indent: -2px;
 }
 
-/* line 106, ../../sass/partials/_base.scss */
+/* line 105, ../../sass/partials/_base.scss */
 h3 {
   font-size: 3.5rem;
 }
 
-/* line 110, ../../sass/partials/_base.scss */
+/* line 109, ../../sass/partials/_base.scss */
 h4 {
   font-size: 3rem;
 }
 
-/* line 114, ../../sass/partials/_base.scss */
+/* line 113, ../../sass/partials/_base.scss */
 h5 {
   font-size: 2.5rem;
 }
 
-/* line 118, ../../sass/partials/_base.scss */
+/* line 117, ../../sass/partials/_base.scss */
 h6 {
   font-size: 2rem;
 }
 
-/* line 122, ../../sass/partials/_base.scss */
+/* line 121, ../../sass/partials/_base.scss */
 a {
-  color: #4a4a4a;
-  transition: color ease 0.3s;
+  color: #303538;
+  transition: color ease 0.1s;
 }
 
-/* line 127, ../../sass/partials/_base.scss */
+/* line 126, ../../sass/partials/_base.scss */
 a:hover {
-  color: #57A3E8;
+  color: #09021d;
+  tranisition: color ease 0.2s;
 }
 
 /* line 132, ../../sass/partials/_base.scss */
-h1 a, h2 a, h3 a,
-h4 a, h5 a, h6 a {
-  color: #50585D;
-}
-
-/* line 137, ../../sass/partials/_base.scss */
 p, ul, ol, dl {
   margin: 1.6em 0;
 }
 
-/* line 142, ../../sass/partials/_base.scss */
+/* line 137, ../../sass/partials/_base.scss */
 ol ol, ul ul,
 ul ol, ol ul {
   margin: 0.4em 0;
 }
 
-/* line 146, ../../sass/partials/_base.scss */
+/* line 141, ../../sass/partials/_base.scss */
+li {
+  list-style: none;
+}
+
+/* line 145, ../../sass/partials/_base.scss */
 dl dt {
   float: left;
   width: 180px;
@@ -490,13 +488,13 @@ dl dt {
   margin-bottom: 1em;
 }
 
-/* line 158, ../../sass/partials/_base.scss */
+/* line 157, ../../sass/partials/_base.scss */
 dl dd {
   margin-left: 200px;
   margin-bottom: 1em;
 }
 
-/* line 163, ../../sass/partials/_base.scss */
+/* line 162, ../../sass/partials/_base.scss */
 hr {
   display: block;
   height: 1px;
@@ -506,7 +504,7 @@ hr {
   padding: 0;
 }
 
-/* line 172, ../../sass/partials/_base.scss */
+/* line 171, ../../sass/partials/_base.scss */
 blockquote {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -515,13 +513,13 @@ blockquote {
   border-left: #4a4a4a 0.4em solid;
 }
 
-/* line 180, ../../sass/partials/_base.scss */
+/* line 179, ../../sass/partials/_base.scss */
 blockquote p {
   margin: 0.8em 0;
   font-style: italic;
 }
 
-/* line 185, ../../sass/partials/_base.scss */
+/* line 184, ../../sass/partials/_base.scss */
 blockquote small {
   display: inline-block;
   margin: 0.8em 0 0.8em 1.5em;
@@ -529,27 +527,27 @@ blockquote small {
   color: #ccc;
 }
 
-/* line 192, ../../sass/partials/_base.scss */
+/* line 191, ../../sass/partials/_base.scss */
 blockquote small:before {
   content: '\2014 \00A0';
 }
 
-/* line 194, ../../sass/partials/_base.scss */
+/* line 193, ../../sass/partials/_base.scss */
 blockquote cite {
   font-weight: bold;
 }
 
-/* line 198, ../../sass/partials/_base.scss */
+/* line 197, ../../sass/partials/_base.scss */
 blockquote cite a {
   font-weight: normal;
 }
 
-/* line 200, ../../sass/partials/_base.scss */
+/* line 199, ../../sass/partials/_base.scss */
 mark {
   background-color: #ffc336;
 }
 
-/* line 204, ../../sass/partials/_base.scss */
+/* line 203, ../../sass/partials/_base.scss */
 code, tt {
   padding: 1px 3px;
   font-family: Inconsolata, monospace, sans-serif;
@@ -560,7 +558,7 @@ code, tt {
   border-radius: 2px;
 }
 
-/* line 214, ../../sass/partials/_base.scss */
+/* line 213, ../../sass/partials/_base.scss */
 pre {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -576,7 +574,7 @@ pre {
   border-radius: 3px;
 }
 
-/* line 229, ../../sass/partials/_base.scss */
+/* line 228, ../../sass/partials/_base.scss */
 pre code, tt {
   font-size: inherit;
   white-space: -moz-pre-wrap;
@@ -586,7 +584,7 @@ pre code, tt {
   padding: 0;
 }
 
-/* line 238, ../../sass/partials/_base.scss */
+/* line 237, ../../sass/partials/_base.scss */
 kbd {
   display: inline-block;
   margin-bottom: 0.4em;
@@ -601,7 +599,7 @@ kbd {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 white inset;
 }
 
-/* line 254, ../../sass/partials/_base.scss */
+/* line 253, ../../sass/partials/_base.scss */
 table {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -611,7 +609,7 @@ table {
   background-color: transparent;
 }
 
-/* line 264, ../../sass/partials/_base.scss */
+/* line 263, ../../sass/partials/_base.scss */
 table th,
 table td {
   padding: 8px;
@@ -621,12 +619,12 @@ table td {
   border-top: 1px solid #efefef;
 }
 
-/* line 272, ../../sass/partials/_base.scss */
+/* line 271, ../../sass/partials/_base.scss */
 table th {
   color: #000;
 }
 
-/* line 279, ../../sass/partials/_base.scss */
+/* line 278, ../../sass/partials/_base.scss */
 table caption + thead tr:first-child th,
 table caption + thead tr:first-child td,
 table colgroup + thead tr:first-child th,
@@ -636,29 +634,29 @@ table thead:first-child tr:first-child td {
   border-top: 0;
 }
 
-/* line 283, ../../sass/partials/_base.scss */
+/* line 282, ../../sass/partials/_base.scss */
 table tbody + tbody {
   border-top: 2px solid #efefef;
 }
 
-/* line 285, ../../sass/partials/_base.scss */
+/* line 284, ../../sass/partials/_base.scss */
 table table table {
   background-color: #fff;
 }
 
-/* line 288, ../../sass/partials/_base.scss */
+/* line 287, ../../sass/partials/_base.scss */
 table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
   background-color: #f6f6f6;
 }
 
-/* line 293, ../../sass/partials/_base.scss */
+/* line 292, ../../sass/partials/_base.scss */
 table.plain tbody > tr:nth-child(odd) > td,
 table.plain tbody > tr:nth-child(odd) > th {
   background: transparent;
 }
 
-/* line 297, ../../sass/partials/_base.scss */
+/* line 296, ../../sass/partials/_base.scss */
 iframe, .fluid-width-video-wrapper {
   display: block;
   margin: 1.6em 0;
@@ -666,7 +664,7 @@ iframe, .fluid-width-video-wrapper {
 
 /* When a video is inside the fitvids wrapper, drop the
 margin on the iframe, cause it breaks stuff. */
-/* line 304, ../../sass/partials/_base.scss */
+/* line 303, ../../sass/partials/_base.scss */
 .fluid-width-video-wrapper iframe {
   margin: 0;
 }
@@ -675,7 +673,7 @@ margin on the iframe, cause it breaks stuff. */
    3. Utilities - These things get used a lot
    ========================================================================== */
 /* Hides shit */
-/* line 314, ../../sass/partials/_base.scss */
+/* line 313, ../../sass/partials/_base.scss */
 .hidden {
   text-indent: -9999px;
   visibility: hidden;
@@ -683,7 +681,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 /* Creates a responsive wrapper that makes our content scale nicely */
-/* line 321, ../../sass/partials/_base.scss */
+/* line 320, ../../sass/partials/_base.scss */
 .inner {
   position: relative;
   width: 80%;
@@ -692,31 +690,32 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 /* Centres vertically yo. (IE8+) */
-/* line 329, ../../sass/partials/_base.scss */
+/* line 328, ../../sass/partials/_base.scss */
 .vertical {
   display: table-cell;
   vertical-align: middle;
 }
 
 /*Main Layout*/
-/* line 3, ../../sass/partials/_layout.scss */
+/* Big cover image on the home page */
+/* line 4, ../../sass/partials/_layout.scss */
 .site-head {
-  background: white;
+  position: relative;
+  display: table;
   width: 100%;
-  height: 8em;
+  height: 35%;
+  text-align: center;
+  color: #fff;
+  background: #303538 no-repeat center center;
+  background-size: cover;
+  margin-bottom: 8rem;
 }
 
-/* line 9, ../../sass/partials/_layout.scss */
+/* line 16, ../../sass/partials/_layout.scss */
 h1.blog-title {
   width: 40%;
+  float: left;
   padding: 1.5rem 0;
-  border: 10px double white;
-}
-
-/* The details of your blog. Defined in ghost/settings/ */
-/* line 16, ../../sass/partials/_layout.scss */
-.blog-title {
-  margin: 10px 0 10px 0;
   font-size: 4.5rem;
   letter-spacing: -1px;
   font-weight: bold;
@@ -724,63 +723,29 @@ h1.blog-title {
   text-transform: uppercase;
   font-weight: 400;
   text-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px 0 10px 0;
+  margin-left: 2%;
+  border: 10px double white;
 }
 
-/* line 25, ../../sass/partials/_layout.scss */
-.blog-description {
-  margin: 0;
-  font-size: 1.8rem;
-  line-height: 1.5em;
-  font-weight: 300;
-  font-family: 'Noto Serif', serif;
-  letter-spacing: 0;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+/* line 30, ../../sass/partials/_layout.scss */
+h1.blog-title a {
+  color: white;
+  text-decoration: none;
 }
 
 /* line 35, ../../sass/partials/_layout.scss */
-.content {
-  float: left;
-  width: 66%;
+h1.blog-title a:hover {
+  padding: 0;
 }
 
-/* line 40, ../../sass/partials/_layout.scss */
-aside {
-  float: right;
-  width: 33%;
-  background: white;
-}
-
-/* line 47, ../../sass/partials/_layout.scss */
-footer {
-  width: 100%;
-  float: left;
-}
-
-/*Posts Layout*/
-/* ==========================================================================
-   4. General - The main styles for the the theme
-   ========================================================================== */
-/* Big cover image on the home page */
-/* line 8, ../../sass/partials/_posts.scss */
-.site-head {
-  position: relative;
-  display: table;
-  width: 100%;
-  height: 60%;
-  margin-bottom: 5rem;
-  text-align: center;
-  color: #fff;
-  background: #303538 no-repeat center center;
-  background-size: cover;
-}
-
-/* line 20, ../../sass/partials/_posts.scss */
+/* line 39, ../../sass/partials/_layout.scss */
 .blog-logo {
   text-decoration: none;
 }
 
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
-/* line 25, ../../sass/partials/_posts.scss */
+/* line 44, ../../sass/partials/_layout.scss */
 .blog-logo img {
   display: block;
   max-height: 100px;
@@ -789,18 +754,114 @@ footer {
   line-height: 0;
 }
 
+/* The details of your blog. Defined in ghost/settings/ */
+/* line 54, ../../sass/partials/_layout.scss */
+.blog-description {
+  clear: left;
+  float: left;
+  width: 300px;
+  font-size: 1.8rem;
+  line-height: 1.5em;
+  font-weight: 300;
+  font-family: 'Noto Serif', serif;
+  letter-spacing: 0;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  margin: 10px 0 0 3em;
+}
+
+/* line 67, ../../sass/partials/_layout.scss */
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .8em;
+  margin-right: 10px;
+}
+
+/* line 75, ../../sass/partials/_layout.scss */
+.content {
+  float: left;
+  width: 73%;
+  padding-left: 2%;
+}
+
+/* line 81, ../../sass/partials/_layout.scss */
+aside {
+  float: right;
+  width: 21%;
+  background: white;
+  padding: 0 2%;
+}
+
+/* line 88, ../../sass/partials/_layout.scss */
+aside a:hover {
+  background: none;
+  padding: 0;
+}
+
+/* line 93, ../../sass/partials/_layout.scss */
+aside img {
+  width: 100%;
+  padding: 3px;
+  margin: 0 auto;
+  border: 1px solid #303538;
+}
+
+/* line 100, ../../sass/partials/_layout.scss */
+aside ul {
+  padding: 0;
+}
+
+/* line 105, ../../sass/partials/_layout.scss */
+footer {
+  width: 100%;
+  float: left;
+}
+
+/*Posts Layout*/
+/* ==========================================================================
+   Index Page
+   ========================================================================== */
+/*Featured Image on index page*/
+/* line 9, ../../sass/partials/_posts.scss */
+.post-excerpt {
+  float: left;
+  width: 100%;
+}
+
+/* line 14, ../../sass/partials/_posts.scss */
+figure {
+  float: left;
+  width: 35%;
+  margin: 0;
+}
+
+/* line 20, ../../sass/partials/_posts.scss */
+figure img {
+  max-width: 100%;
+}
+
+/* line 24, ../../sass/partials/_posts.scss */
+.excerpt {
+  width: 60%;
+  float: right;
+}
+
+/* ==========================================================================
+   General - The main styles for the the theme
+   ========================================================================== */
 /* Every post, on every page, gets this style on its <article> tag */
 /* line 34, ../../sass/partials/_posts.scss */
 .post {
   position: relative;
   width: 80%;
-  max-width: 700px;
   background: white;
-  padding: 0 6rem 3rem 6rem;
-  margin: 6rem auto;
+  padding: 0 4rem 3rem 4rem;
+  margin: 6rem auto 15rem 3.5rem;
   border-bottom: #EBF2F6 1px solid;
   word-break: break-word;
   hyphens: auto;
+  float: left;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
@@ -824,74 +885,85 @@ footer {
 }
 
 /* line 65, ../../sass/partials/_posts.scss */
-.post-title {
+.post-title, .post-title a {
   color: #09021d;
+  font-weight: 300;
   margin: 0;
 }
 
-/* line 70, ../../sass/partials/_posts.scss */
+/* line 71, ../../sass/partials/_posts.scss */
 .post-title a {
   text-decoration: none;
 }
 
-/* line 74, ../../sass/partials/_posts.scss */
+/* line 75, ../../sass/partials/_posts.scss */
+.post-title a:hover {
+  padding: 1px 2px;
+  border: 3px solid #303538;
+  transition: all 0.2s ease, padding 0.2s linear;
+}
+
+/* line 82, ../../sass/partials/_posts.scss */
 .post-excerpt p {
   margin: 1.6rem 0 0 0;
   font-size: 0.9em;
   line-height: 1.6em;
 }
 
-/* line 80, ../../sass/partials/_posts.scss */
+/* line 88, ../../sass/partials/_posts.scss */
 .post-date {
   position: absolute;
-  top: -50px;
+  top: -55px;
   background: white;
-  left: -20px;
-  padding: 1.5rem;
+  left: -25px;
+  font-family: Futura, "Droid-Serif", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 1.5rem 2.5rem;
   border: 1px solid #09021d;
 }
 
-/* line 89, ../../sass/partials/_posts.scss */
+/* line 98, ../../sass/partials/_posts.scss */
 .post-meta {
   display: inline-block;
-  margin: 0 0 5px 0;
+  margin: 1rem 0 5px 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
   color: #9EABB3;
 }
 
-/* line 97, ../../sass/partials/_posts.scss */
+/* line 106, ../../sass/partials/_posts.scss */
 .post-meta a {
   color: #9EABB3;
   text-decoration: none;
 }
 
-/* line 102, ../../sass/partials/_posts.scss */
+/* line 111, ../../sass/partials/_posts.scss */
 .post-meta a:hover {
   text-decoration: underline;
 }
 
-/* line 106, ../../sass/partials/_posts.scss */
+/* line 115, ../../sass/partials/_posts.scss */
 .user-meta {
   position: relative;
   padding: 0.3rem 40px 0 100px;
   min-height: 77px;
 }
 
-/* line 112, ../../sass/partials/_posts.scss */
+/* line 121, ../../sass/partials/_posts.scss */
 .user-image {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-/* line 118, ../../sass/partials/_posts.scss */
+/* line 127, ../../sass/partials/_posts.scss */
 .user-name {
   display: block;
   font-weight: bold;
 }
 
-/* line 123, ../../sass/partials/_posts.scss */
+/* line 132, ../../sass/partials/_posts.scss */
 .user-bio {
   display: block;
   max-width: 440px;
@@ -899,7 +971,7 @@ footer {
   line-height: 1.5em;
 }
 
-/* line 130, ../../sass/partials/_posts.scss */
+/* line 139, ../../sass/partials/_posts.scss */
 .publish-meta {
   position: absolute;
   top: 0;
@@ -908,13 +980,13 @@ footer {
   text-align: right;
 }
 
-/* line 138, ../../sass/partials/_posts.scss */
+/* line 147, ../../sass/partials/_posts.scss */
 .publish-heading {
   display: block;
   font-weight: bold;
 }
 
-/* line 143, ../../sass/partials/_posts.scss */
+/* line 152, ../../sass/partials/_posts.scss */
 .publish-date {
   display: block;
   font-size: 1.4rem;
@@ -925,30 +997,33 @@ footer {
    5. Single Post - When you click on an individual post
    ========================================================================== */
 /* Tweak the .post wrapper style */
-/* line 154, ../../sass/partials/_posts.scss */
+/* line 163, ../../sass/partials/_posts.scss */
 .post-template .post {
+  float: left;
+  padding-bottom: 10rem;
   margin-top: 0;
   border-bottom: none;
-  padding-bottom: 0;
 }
 
 /* Kill that stylish little circle that was on the border, too */
-/* line 161, ../../sass/partials/_posts.scss */
+/* line 171, ../../sass/partials/_posts.scss */
 .post-template .post:after {
   display: none;
 }
 
 /* Keep large images within the bounds of the post-width */
-/* line 166, ../../sass/partials/_posts.scss */
+/* line 176, ../../sass/partials/_posts.scss */
 .post-content img {
   display: block;
   max-width: 100%;
-  margin: 0 auto;
   height: auto;
+  padding: 5px;
+  margin: 0 auto;
+  border: 1px solid #303538;
 }
 
 /* The author credit area after the post */
-/* line 174, ../../sass/partials/_posts.scss */
+/* line 186, ../../sass/partials/_posts.scss */
 .post-footer {
   position: relative;
   margin: 4rem 0 0 0;
@@ -956,13 +1031,13 @@ footer {
   border-top: #EBF2F6 1px solid;
 }
 
-/* line 181, ../../sass/partials/_posts.scss */
+/* line 193, ../../sass/partials/_posts.scss */
 .post-footer h4 {
   font-size: 1.8rem;
   margin: 0;
 }
 
-/* line 186, ../../sass/partials/_posts.scss */
+/* line 198, ../../sass/partials/_posts.scss */
 .post-footer p {
   margin: 1rem 0;
   font-size: 1.4rem;
@@ -970,7 +1045,7 @@ footer {
 }
 
 /* Create some space to the right for the share links */
-/* line 193, ../../sass/partials/_posts.scss */
+/* line 205, ../../sass/partials/_posts.scss */
 .post-footer .author {
   margin-right: 180px;
 }
@@ -979,7 +1054,7 @@ footer {
    Doing it like this means it's easier for the author bio
    to be flexible at smaller screen sizes while the share
    links remain at a fixed width the whole time */
-/* line 201, ../../sass/partials/_posts.scss */
+/* line 213, ../../sass/partials/_posts.scss */
 .post-footer .share {
   position: absolute;
   top: 4rem;
@@ -987,7 +1062,7 @@ footer {
   width: 140px;
 }
 
-/* line 208, ../../sass/partials/_posts.scss */
+/* line 220, ../../sass/partials/_posts.scss */
 .post-footer .share a {
   font-size: 1.8rem;
   display: inline-block;
@@ -996,7 +1071,7 @@ footer {
   text-decoration: none;
 }
 
-/* line 216, ../../sass/partials/_posts.scss */
+/* line 228, ../../sass/partials/_posts.scss */
 .post-footer .share a:hover {
   color: #50585D;
 }
@@ -1010,7 +1085,7 @@ footer {
   position: relative;
   width: 80%;
   max-width: 700px;
-  margin: 4rem auto;
+  margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.3rem;
   color: #9EABB3;
@@ -1186,83 +1261,122 @@ footer {
 }
 
 /* ==========================================================================
+   9. Media Queries - Smaller than 1110px
+   ========================================================================== */
+@media only screen and (max-width: 1110px) {
+  /* line 7, ../../sass/partials/_media_queries.scss */
+  h1.blog-title {
+    width: 50%;
+  }
+}
+/* ==========================================================================
    9. Media Queries - Smaller than 900px
    ========================================================================== */
 @media only screen and (max-width: 900px) {
-  /* line 7, ../../sass/partials/_media_queries.scss */
+  /* line 21, ../../sass/partials/_media_queries.scss */
   blockquote {
     margin-left: 0;
   }
 
-  /* line 11, ../../sass/partials/_media_queries.scss */
+  /* line 25, ../../sass/partials/_media_queries.scss */
   .site-head {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    height: auto;
-    min-height: 240px;
-    padding: 15% 0;
   }
 
-  /* line 20, ../../sass/partials/_media_queries.scss */
-  .blog-title {
+  /* line 31, ../../sass/partials/_media_queries.scss */
+  h1.blog-title {
     font-size: 4rem;
     letter-spacing: -1px;
+    width: 98%;
+    margin-left: auto;
+    margin: 0 auto;
   }
 
-  /* line 25, ../../sass/partials/_media_queries.scss */
+  /* line 39, ../../sass/partials/_media_queries.scss */
   .blog-description {
     font-size: 1.7rem;
     line-height: 1.5em;
   }
 
-  /* line 30, ../../sass/partials/_media_queries.scss */
+  /* line 44, ../../sass/partials/_media_queries.scss */
+  nav {
+    width: 84%;
+    display: block;
+    height: 150px;
+    float: left;
+  }
+
+  /* line 51, ../../sass/partials/_media_queries.scss */
+  main.content {
+    width: 98%;
+  }
+
+  /* line 55, ../../sass/partials/_media_queries.scss */
   .post {
     font-size: 0.9em;
     line-height: 1.6em;
+    margin-left: 2.5rem;
   }
 
-  /* line 35, ../../sass/partials/_media_queries.scss */
+  /* line 61, ../../sass/partials/_media_queries.scss */
   .post-template .post {
     padding-bottom: 1rem;
   }
 
-  /* line 39, ../../sass/partials/_media_queries.scss */
+  /* line 65, ../../sass/partials/_media_queries.scss */
   .post-template .post-header {
     padding: 40px 0;
   }
 
-  /* line 43, ../../sass/partials/_media_queries.scss */
+  /* line 69, ../../sass/partials/_media_queries.scss */
+  .post-excerpt figure {
+    width: 100%;
+  }
+
+  /* line 73, ../../sass/partials/_media_queries.scss */
+  .excerpt {
+    width: 100%;
+  }
+
+  /* line 77, ../../sass/partials/_media_queries.scss */
   h1 {
     font-size: 4.8rem;
     text-indent: -2px;
   }
 
-  /* line 48, ../../sass/partials/_media_queries.scss */
+  /* line 82, ../../sass/partials/_media_queries.scss */
   h2 {
     font-size: 3.8rem;
   }
 
-  /* line 52, ../../sass/partials/_media_queries.scss */
+  /* line 86, ../../sass/partials/_media_queries.scss */
   h3 {
     font-size: 3.3rem;
   }
 
-  /* line 56, ../../sass/partials/_media_queries.scss */
+  /* line 90, ../../sass/partials/_media_queries.scss */
   h4 {
     font-size: 2.8rem;
+  }
+
+  /* line 94, ../../sass/partials/_media_queries.scss */
+  aside {
+    width: 98%;
+    margin: 0 auto;
   }
 }
 /* ==========================================================================
    10. Media Queries - Smaller than 500px
    ========================================================================== */
 @media only screen and (max-width: 500px) {
-  /* line 69, ../../sass/partials/_media_queries.scss */
+  /* line 108, ../../sass/partials/_media_queries.scss */
   .blog-logo img {
     max-height: 80px;
   }
 
-  /* line 74, ../../sass/partials/_media_queries.scss */
+  /* line 113, ../../sass/partials/_media_queries.scss */
   .inner,
   .pagination {
     width: auto;
@@ -1270,7 +1384,7 @@ footer {
     margin-right: 16px;
   }
 
-  /* line 80, ../../sass/partials/_media_queries.scss */
+  /* line 119, ../../sass/partials/_media_queries.scss */
   .post {
     width: auto;
     margin-left: 16px;
@@ -1279,90 +1393,90 @@ footer {
     line-height: 1.6em;
   }
 
-  /* line 88, ../../sass/partials/_media_queries.scss */
+  /* line 127, ../../sass/partials/_media_queries.scss */
   .site-head {
     padding: 10% 0;
   }
 
-  /* line 92, ../../sass/partials/_media_queries.scss */
+  /* line 131, ../../sass/partials/_media_queries.scss */
   .blog-title {
     font-size: 3rem;
   }
 
-  /* line 96, ../../sass/partials/_media_queries.scss */
+  /* line 135, ../../sass/partials/_media_queries.scss */
   .blog-description {
     font-size: 1.5rem;
   }
 
-  /* line 101, ../../sass/partials/_media_queries.scss */
+  /* line 140, ../../sass/partials/_media_queries.scss */
   h1, h2 {
     font-size: 3rem;
     line-height: 1.1em;
     letter-spacing: -1px;
   }
 
-  /* line 107, ../../sass/partials/_media_queries.scss */
+  /* line 146, ../../sass/partials/_media_queries.scss */
   h3 {
     font-size: 2.8rem;
   }
 
-  /* line 111, ../../sass/partials/_media_queries.scss */
+  /* line 150, ../../sass/partials/_media_queries.scss */
   h4 {
     font-size: 2.3rem;
   }
 
-  /* line 115, ../../sass/partials/_media_queries.scss */
+  /* line 154, ../../sass/partials/_media_queries.scss */
   .post-template .post {
     padding-bottom: 0;
   }
 
-  /* line 119, ../../sass/partials/_media_queries.scss */
+  /* line 158, ../../sass/partials/_media_queries.scss */
   .post-template .post-header {
     padding: 30px 0;
   }
 
-  /* line 123, ../../sass/partials/_media_queries.scss */
+  /* line 162, ../../sass/partials/_media_queries.scss */
   .post-meta {
     font-size: 1.3rem;
   }
 
-  /* line 127, ../../sass/partials/_media_queries.scss */
+  /* line 166, ../../sass/partials/_media_queries.scss */
   .post-footer {
     padding: 4rem 0;
     text-align: center;
   }
 
-  /* line 132, ../../sass/partials/_media_queries.scss */
+  /* line 171, ../../sass/partials/_media_queries.scss */
   .post-footer .author {
     margin: 0 0 2rem 0;
     padding: 0 0 1.6rem 0;
     border-bottom: #EBF2F6 1px dashed;
   }
 
-  /* line 138, ../../sass/partials/_media_queries.scss */
+  /* line 177, ../../sass/partials/_media_queries.scss */
   .post-footer .share {
     position: static;
     width: auto;
   }
 
-  /* line 143, ../../sass/partials/_media_queries.scss */
+  /* line 182, ../../sass/partials/_media_queries.scss */
   .post-footer .share a {
     margin: 1.4rem 0.8rem 0 0.8rem;
   }
 
-  /* line 148, ../../sass/partials/_media_queries.scss */
+  /* line 187, ../../sass/partials/_media_queries.scss */
   .older-posts,
   .newer-posts {
     position: static;
     margin: 10px 0;
   }
 
-  /* line 153, ../../sass/partials/_media_queries.scss */
+  /* line 192, ../../sass/partials/_media_queries.scss */
   .page-number {
     display: block;
   }
 
-  /* line 157, ../../sass/partials/_media_queries.scss */
+  /* line 196, ../../sass/partials/_media_queries.scss */
   .site-footer {
     margin-top: 6rem;
     font-size: 1.1rem;

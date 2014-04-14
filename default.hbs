@@ -30,12 +30,10 @@
     <aside class="sidebar">
         <ul>
             <li>
-            {{#if @blog.description}}
-                <p class="sheet-sidebar-desc">{{@blog.description}}</p>
-            {{/if}}
+            <a href="http://sensitiveskingmagazine.com"><img src="{{asset "img/empire_state.jpg"}}"></a>
             </li>
-
-            <li class="sheet-sidebar-subscribe"><a class="sheet-btn" href="{{@blog.url}}/rss/"><i class="fa fa-rss-square"></i> Subscribe</a>
+            <li>
+            <p>'Pilgrims' is a novel set in 1991 New York. The background is New York at the end of the First Gulf War, the crack epidemic raging across the city, and the beginning of the East Village's gentrification. The first chapter can be seen in Sensitive Skin Magazine.</p>
             </li>
         </ul>
     </aside>
@@ -52,8 +50,12 @@
     {{ghost_foot}}
 
     {{! The main JavaScript file for Casper }}
+    <script type="text/javascript" src="/assets/js/jquery.js"></script>
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
+    <script type="text/javascript" src="/assets/js/index.js"></script>
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
+    <link rel="stylesheet" href="http://jmblog.github.io/color-themes-for-google-code-prettify/css/themes/tomorrow.css">
 
 </body>
 </html>

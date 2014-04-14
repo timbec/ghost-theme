@@ -1,46 +1,104 @@
 /*Main Layout*/
 
+/* Big cover image on the home page */
 .site-head {
-    background: $white; 
-    width: 100%; 
-    height: 8em; 
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 35%;
+    text-align: center;
+    color: #fff;
+    background: $dark_green no-repeat center center;
+    background-size: cover;
+    margin-bottom: 8rem;
 }
 
 h1.blog-title {
     width: 40%; 
+    float: left; 
     padding: 1.5rem 0;
-    border: 10px double $white; 
-}
-
-/* The details of your blog. Defined in ghost/settings/ */
-.blog-title {
-    margin: 10px 0 10px 0;
     font-size: 4.5rem;
     letter-spacing: -1px;
     font-weight: bold;
     @include futura; 
     text-shadow: 0 1px 6px rgba(0,0,0,0.1);
+    margin: 10px 0 10px 0;
+    margin-left: 2%; 
+    border: 10px double $white; 
 }
 
+h1.blog-title a {
+    color: $white; 
+    text-decoration: none; 
+}
+
+h1.blog-title a:hover {
+    padding: 0; 
+}
+
+.blog-logo {
+    text-decoration: none;
+}
+
+/* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
+.blog-logo img {
+    display: block;
+    max-height: 100px;
+    width: auto;
+    margin: 0 auto;
+    line-height: 0;
+}
+
+/* The details of your blog. Defined in ghost/settings/ */
+
 .blog-description {
-    margin: 0;
+    clear: left; 
+    float: left; 
+    width: 300px; 
     font-size: 1.8rem;
     line-height: 1.5em;
     font-weight: 300;
     font-family: 'Noto Serif', serif;
     letter-spacing: 0;
     text-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    margin: 10px 0 0 3em; 
+}
+
+nav a {
+    color: $white; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-size: .8em; 
+    margin-right: 10px;  
 }
 
 .content {
     float: left; 
-    width: 66%; 
+    width: 73%;
+    padding-left: 2%;  
 }
 
 aside {
     float: right; 
-    width: 33%; 
+    width: 21%; 
     background: $white; 
+    padding: 0 2%; 
+}
+
+aside a:hover {
+    background: none; 
+    padding: 0; 
+}
+
+aside img {
+    width: 100%; 
+    padding: 3px; 
+    margin: 0 auto; 
+    border: 1px solid $dark_green; 
+}
+
+aside ul {
+    padding: 0; 
 }
 
 

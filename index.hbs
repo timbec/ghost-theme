@@ -2,10 +2,8 @@
 
 {{> header}}
 
-<h1>Index page</h1>
 {{! The main content area on the homepage }}
 <main class="content" role="main">
-
     {{! Each post will be output using this markup }}
     {{#foreach posts}}
 
@@ -23,7 +21,14 @@
 
         </header>
         <section class="post-excerpt">
+            <figure class="featured-image">
+            <a href="{{url}}">
+            {{content words="0"}}
+            </a>
+            </figure>
+            <article class="excerpt">
             <p>{{excerpt}}&hellip;</p>
+            </article>
         </section>
     </article>
 

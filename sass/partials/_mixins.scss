@@ -5,3 +5,7 @@
   text-transform: uppercase; 
   font-weight: 400; 
 }
+
+@mixin open-sans() {
+	font-family: "Open Sans", sans-serif; 
+}
