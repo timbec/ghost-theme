@@ -120,12 +120,11 @@ h6 {
 
 a {
     color: $dark_green;
-    transition: color ease 0.1s;
-}
-
-a:hover {
-    color: $blue_black; 
-    tranisition: color ease 0.2s; 
+    transition: color ease 0.5s;
+    :hover {
+       color: $blue_black; 
+       tranisition: color ease 0.6s; 
+    }
 }
 
 

@@ -450,32 +450,31 @@ h6 {
 /* line 121, ../../sass/partials/_base.scss */
 a {
   color: #303538;
-  transition: color ease 0.1s;
+  transition: color ease 0.5s;
 }
-
-/* line 126, ../../sass/partials/_base.scss */
-a:hover {
+/* line 124, ../../sass/partials/_base.scss */
+a :hover {
   color: #09021d;
-  tranisition: color ease 0.2s;
+  tranisition: color ease 0.6s;
 }
 
-/* line 132, ../../sass/partials/_base.scss */
+/* line 131, ../../sass/partials/_base.scss */
 p, ul, ol, dl {
   margin: 1.6em 0;
 }
 
-/* line 137, ../../sass/partials/_base.scss */
+/* line 136, ../../sass/partials/_base.scss */
 ol ol, ul ul,
 ul ol, ol ul {
   margin: 0.4em 0;
 }
 
-/* line 141, ../../sass/partials/_base.scss */
+/* line 140, ../../sass/partials/_base.scss */
 li {
   list-style: none;
 }
 
-/* line 145, ../../sass/partials/_base.scss */
+/* line 144, ../../sass/partials/_base.scss */
 dl dt {
   float: left;
   width: 180px;
@@ -488,13 +487,13 @@ dl dt {
   margin-bottom: 1em;
 }
 
-/* line 157, ../../sass/partials/_base.scss */
+/* line 156, ../../sass/partials/_base.scss */
 dl dd {
   margin-left: 200px;
   margin-bottom: 1em;
 }
 
-/* line 162, ../../sass/partials/_base.scss */
+/* line 161, ../../sass/partials/_base.scss */
 hr {
   display: block;
   height: 1px;
@@ -504,7 +503,7 @@ hr {
   padding: 0;
 }
 
-/* line 171, ../../sass/partials/_base.scss */
+/* line 170, ../../sass/partials/_base.scss */
 blockquote {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -513,13 +512,13 @@ blockquote {
   border-left: #4a4a4a 0.4em solid;
 }
 
-/* line 179, ../../sass/partials/_base.scss */
+/* line 178, ../../sass/partials/_base.scss */
 blockquote p {
   margin: 0.8em 0;
   font-style: italic;
 }
 
-/* line 184, ../../sass/partials/_base.scss */
+/* line 183, ../../sass/partials/_base.scss */
 blockquote small {
   display: inline-block;
   margin: 0.8em 0 0.8em 1.5em;
@@ -527,27 +526,27 @@ blockquote small {
   color: #ccc;
 }
 
-/* line 191, ../../sass/partials/_base.scss */
+/* line 190, ../../sass/partials/_base.scss */
 blockquote small:before {
   content: '\2014 \00A0';
 }
 
-/* line 193, ../../sass/partials/_base.scss */
+/* line 192, ../../sass/partials/_base.scss */
 blockquote cite {
   font-weight: bold;
 }
 
-/* line 197, ../../sass/partials/_base.scss */
+/* line 196, ../../sass/partials/_base.scss */
 blockquote cite a {
   font-weight: normal;
 }
 
-/* line 199, ../../sass/partials/_base.scss */
+/* line 198, ../../sass/partials/_base.scss */
 mark {
   background-color: #ffc336;
 }
 
-/* line 203, ../../sass/partials/_base.scss */
+/* line 202, ../../sass/partials/_base.scss */
 code, tt {
   padding: 1px 3px;
   font-family: Inconsolata, monospace, sans-serif;
@@ -558,7 +557,7 @@ code, tt {
   border-radius: 2px;
 }
 
-/* line 213, ../../sass/partials/_base.scss */
+/* line 212, ../../sass/partials/_base.scss */
 pre {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -574,7 +573,7 @@ pre {
   border-radius: 3px;
 }
 
-/* line 228, ../../sass/partials/_base.scss */
+/* line 227, ../../sass/partials/_base.scss */
 pre code, tt {
   font-size: inherit;
   white-space: -moz-pre-wrap;
@@ -584,7 +583,7 @@ pre code, tt {
   padding: 0;
 }
 
-/* line 237, ../../sass/partials/_base.scss */
+/* line 236, ../../sass/partials/_base.scss */
 kbd {
   display: inline-block;
   margin-bottom: 0.4em;
@@ -599,7 +598,7 @@ kbd {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 white inset;
 }
 
-/* line 253, ../../sass/partials/_base.scss */
+/* line 252, ../../sass/partials/_base.scss */
 table {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -609,7 +608,7 @@ table {
   background-color: transparent;
 }
 
-/* line 263, ../../sass/partials/_base.scss */
+/* line 262, ../../sass/partials/_base.scss */
 table th,
 table td {
   padding: 8px;
@@ -619,12 +618,12 @@ table td {
   border-top: 1px solid #efefef;
 }
 
-/* line 271, ../../sass/partials/_base.scss */
+/* line 270, ../../sass/partials/_base.scss */
 table th {
   color: #000;
 }
 
-/* line 278, ../../sass/partials/_base.scss */
+/* line 277, ../../sass/partials/_base.scss */
 table caption + thead tr:first-child th,
 table caption + thead tr:first-child td,
 table colgroup + thead tr:first-child th,
@@ -634,29 +633,29 @@ table thead:first-child tr:first-child td {
   border-top: 0;
 }
 
-/* line 282, ../../sass/partials/_base.scss */
+/* line 281, ../../sass/partials/_base.scss */
 table tbody + tbody {
   border-top: 2px solid #efefef;
 }
 
-/* line 284, ../../sass/partials/_base.scss */
+/* line 283, ../../sass/partials/_base.scss */
 table table table {
   background-color: #fff;
 }
 
-/* line 287, ../../sass/partials/_base.scss */
+/* line 286, ../../sass/partials/_base.scss */
 table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
   background-color: #f6f6f6;
 }
 
-/* line 292, ../../sass/partials/_base.scss */
+/* line 291, ../../sass/partials/_base.scss */
 table.plain tbody > tr:nth-child(odd) > td,
 table.plain tbody > tr:nth-child(odd) > th {
   background: transparent;
 }
 
-/* line 296, ../../sass/partials/_base.scss */
+/* line 295, ../../sass/partials/_base.scss */
 iframe, .fluid-width-video-wrapper {
   display: block;
   margin: 1.6em 0;
@@ -664,7 +663,7 @@ iframe, .fluid-width-video-wrapper {
 
 /* When a video is inside the fitvids wrapper, drop the
 margin on the iframe, cause it breaks stuff. */
-/* line 303, ../../sass/partials/_base.scss */
+/* line 302, ../../sass/partials/_base.scss */
 .fluid-width-video-wrapper iframe {
   margin: 0;
 }
@@ -673,7 +672,7 @@ margin on the iframe, cause it breaks stuff. */
    3. Utilities - These things get used a lot
    ========================================================================== */
 /* Hides shit */
-/* line 313, ../../sass/partials/_base.scss */
+/* line 312, ../../sass/partials/_base.scss */
 .hidden {
   text-indent: -9999px;
   visibility: hidden;
@@ -681,7 +680,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 /* Creates a responsive wrapper that makes our content scale nicely */
-/* line 320, ../../sass/partials/_base.scss */
+/* line 319, ../../sass/partials/_base.scss */
 .inner {
   position: relative;
   width: 80%;
@@ -690,7 +689,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 /* Centres vertically yo. (IE8+) */
-/* line 328, ../../sass/partials/_base.scss */
+/* line 327, ../../sass/partials/_base.scss */
 .vertical {
   display: table-cell;
   vertical-align: middle;
@@ -777,15 +776,21 @@ nav a {
   font-size: .8em;
   margin-right: 10px;
 }
+/* line 74, ../../sass/partials/_layout.scss */
+nav a:hover, nav a:focus {
+  background: white;
+  color: #303538;
+  padding: 0 3px;
+}
 
-/* line 75, ../../sass/partials/_layout.scss */
+/* line 81, ../../sass/partials/_layout.scss */
 .content {
   float: left;
   width: 73%;
   padding-left: 2%;
 }
 
-/* line 81, ../../sass/partials/_layout.scss */
+/* line 87, ../../sass/partials/_layout.scss */
 aside {
   float: right;
   width: 21%;
@@ -793,13 +798,13 @@ aside {
   padding: 0 2%;
 }
 
-/* line 88, ../../sass/partials/_layout.scss */
+/* line 94, ../../sass/partials/_layout.scss */
 aside a:hover {
   background: none;
   padding: 0;
 }
 
-/* line 93, ../../sass/partials/_layout.scss */
+/* line 99, ../../sass/partials/_layout.scss */
 aside img {
   width: 100%;
   padding: 3px;
@@ -807,12 +812,12 @@ aside img {
   border: 1px solid #303538;
 }
 
-/* line 100, ../../sass/partials/_layout.scss */
+/* line 106, ../../sass/partials/_layout.scss */
 aside ul {
   padding: 0;
 }
 
-/* line 105, ../../sass/partials/_layout.scss */
+/* line 111, ../../sass/partials/_layout.scss */
 footer {
   width: 100%;
   float: left;
@@ -1090,15 +1095,16 @@ figure img {
   font-size: 1.3rem;
   color: #9EABB3;
   text-align: center;
+  float: left;
 }
 
-/* line 17, ../../sass/partials/_pagination.scss */
+/* line 18, ../../sass/partials/_pagination.scss */
 .pagination a {
   color: #9EABB3;
 }
 
 /* Push the previous/next links out to the left/right */
-/* line 23, ../../sass/partials/_pagination.scss */
+/* line 24, ../../sass/partials/_pagination.scss */
 .older-posts,
 .newer-posts {
   position: absolute;
@@ -1110,23 +1116,23 @@ figure img {
   transition: border ease 0.3s;
 }
 
-/* line 33, ../../sass/partials/_pagination.scss */
+/* line 34, ../../sass/partials/_pagination.scss */
 .older-posts {
   right: 0;
 }
 
-/* line 37, ../../sass/partials/_pagination.scss */
+/* line 38, ../../sass/partials/_pagination.scss */
 .page-number {
   display: inline-block;
   padding: 2px 0;
 }
 
-/* line 42, ../../sass/partials/_pagination.scss */
+/* line 43, ../../sass/partials/_pagination.scss */
 .newer-posts {
   left: 0;
 }
 
-/* line 47, ../../sass/partials/_pagination.scss */
+/* line 48, ../../sass/partials/_pagination.scss */
 .older-posts:hover,
 .newer-posts:hover {
   border-color: #9EABB3;

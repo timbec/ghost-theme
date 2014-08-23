@@ -69,7 +69,13 @@ nav a {
     text-decoration: none; 
     text-transform: uppercase; 
     font-size: .8em; 
-    margin-right: 10px;  
+    margin-right: 10px; 
+    &:hover,
+    &:focus  {
+    background: $white; 
+    color: $dark_green; 
+    padding:0 3px; 
+    }
 }
 
 .content {
